@@ -1,0 +1,10 @@
+# Workers static-assets site config — Cloudflare deploys dist/ as static files.
+# Presence of this file stops Cloudflare's Vite auto-config (which required Vite 6+).
+# No `main` = assets-only site (no Worker code); not_found_handling serves
+# index.html for any non-asset path (hash-router SPA).
+name = "photos-stream"
+compatibility_date = "2026-09-23"
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
