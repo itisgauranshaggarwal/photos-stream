@@ -1,0 +1,19 @@
+{
+  "name": "photos-stream",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PhotoStream — a YouTube-for-photos web app. Vanilla HTML/CSS/JS + Supabase + Cloudflare Pages. Personal feed tuned by Like/Dislike votes.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node --check main.js && node --check supabase.js && node --check views/intro.js && node --check views/home.js && node --check views/post.js && node --check views/login.js && node --check views/me.js && node --check views/profile.js && node --check views/upload.js && node --check views/password.js && node --check views/info.js && node --check views/notfound.js && node --check lib/theme.js && node --check lib/reveal.js && node --check lib/urls.js && node --check lib/dom.js && node --check lib/auth.js && node --check lib/compress.js && node --check lib/session.js && node --check lib/vote.js && node --check lib/errors.js && node --check lib/form.js && node --check components/card.js && node --check components/votebutton.js && node --check components/confirm.js && node --check components/empty.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}
