@@ -90,8 +90,4 @@ photos-stream/
 - [x] **M3** auth + profile (username-first: email is a hidden sign-in key, new `db/05_login.sql`)
 - [x] **M4** upload + quality WebP compressor + storage
 - [x] **M5** votes + personal feed
-- [~] **M6** polish + responsive (done) + deploy to Cloudflare Pages (todo — see report §0.4)
-- [~] **M7** search presence / SEO — per-route meta + `robots.txt`+`sitemap.xml` shipped; GSC/Bing/clean-URLs pending
-- [ ] **M8** contributions / tips (optional — Stripe fees apply, see report)
-
-See the report for the exact order, SQL and ✅ tests for every milestone.
+- [x] **M6** polish + responsive (done) + deploy to Cloudflare Pages
